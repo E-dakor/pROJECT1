@@ -1,1 +1,5 @@
-# pROJECT1
+The ImprovedTextSearch project is a Java Swing desktop application that allows users to open text files and search through them easily. Once a file is loaded, the user can type a word or phrase into the search bar, and the program highlights every occurrence in the text. To make navigation smooth, Next and Previous buttons let the user move between matches, while a status bar shows how many results were found and which one is currently selected.
+
+The program also provides search options such as case sensitivity and whole-word matching, giving users more control over how results are found. Its design goes beyond the basic Swing look by using a background image with a dark overlay, making the text area stand out and giving the interface a modern feel.
+
+Technically, the project combines Swing for the interface, Java I/O for reading files, and collections to manage search results. It demonstrates how core Java concepts can come together to solve a practical problem. In the future, it could be extended with features like regex search or multi-theme support, but even now it works as a simple and effective text-search tool.
